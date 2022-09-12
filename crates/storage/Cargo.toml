@@ -32,7 +32,7 @@ array-init = { version = "2.0", default-features = false }
 # there is an issue with a doubly included std lib when executing
 # `cargo check --no-default-features --target wasm32-unknown-unknown`.
 # We haven't found a better solution yet.
-criterion = { version = "0.3", optional = true }
+criterion = { version = "0.4", optional = true }
 
 [dev-dependencies]
 quickcheck = "1.0"
